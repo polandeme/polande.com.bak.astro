@@ -43,6 +43,7 @@
     "astro": "^4.0.0",
     "astro-compress": "^2.2.13",
     "astro-icon": "^1.1.0",
+    "simple-get": "4.0.1",
     "astro-pagefind": "^1.4.0",
     "katex": "^0.16.9",
     "lxgw-wenkai-screen-web": "^1.321.0",
