@@ -117,8 +117,8 @@ for (const platform in Socials) {
 			{!Hide.includes('themeToggler') && <ThemeToggler />}
 		</div>
 		<Fragment transition:persist>
-			{!Hide.includes('siteDescription') && <div>{SiteDescription}</div>}
-			{
+			<!-- {!Hide.includes('siteDescription') && <div>{SiteDescription}</div>} -->
+			<!-- {
 				socials.length > 0 && (
 					<div class="mt-[2dvh] flex flex-wrap justify-center gap-3 lg:mt-0">
 						{socials.map(({ platform, icon, url, label }) => (
@@ -132,7 +132,7 @@ for (const platform in Socials) {
 						))}
 					</div>
 				)
-			}
+			} -->
 		</Fragment>
 	</div>
 </header>
