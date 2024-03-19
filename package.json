@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
-    "build": "astro check && eslint . && astro build",
+    "build": "astro check && astro build",
     "preview": "wrangler pages dev ./dist",
     "astro": "astro",
     "format": "prettier --write .",
