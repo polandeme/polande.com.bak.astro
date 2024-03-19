@@ -107,13 +107,13 @@ for (const platform in Socials) {
 	<div id="menu" class="col-span-2 hidden flex-col gap-3 text-center lg:flex lg:items-end">
 		<div class="mb-[2dvh] flex flex-col items-center gap-3 lg:mb-7 lg:flex-row lg:gap-8">
 			<Nav currentNav={currentNav} />
-			{
+			<!-- {
 				!Hide.includes('search') && (
 					<a href="/search" title="Navigate to search page" aria-label="Navigate to search page">
 						<Icon name="ri:search-2-line" class="opacity-75 hover:opacity-100" />
 					</a>
 				)
-			}
+			} -->
 			{!Hide.includes('themeToggler') && <ThemeToggler />}
 		</div>
 		<Fragment transition:persist>

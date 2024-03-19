@@ -13,10 +13,6 @@ export const PageSize = 15;
 export const Socials: Record<string, Record<string, string>> = {
 	github: { url: 'https://github.com/polandeme' },
 	x: { url: 'https://twitter.com/polandeme' },
-	telegram: { url: 'https://t.me/@userName' },
-	weibo: { url: 'https://weibo.com/userName' },
-	bilibili: { url: 'https://space.bilibili.com/userName' },
-	rss: { url: '/rss.xml' },
 };
 
 // data-theme is auto changed between noborder_light / noborder_gray
