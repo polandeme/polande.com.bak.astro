@@ -2,7 +2,7 @@ import type { PostHideElements } from '~/content/config';
 
 export const Site = 'https://www.polande.com';
 export const SiteLanguage = 'zh';
-export const SiteTitle = '无限进步';
+export const SiteTitle = 'I\'m Polande';
 export const SiteDescription = '无限进步';
 export const FooterDescription = '肆意闪耀';
 export const AdminName = 'Polande';
